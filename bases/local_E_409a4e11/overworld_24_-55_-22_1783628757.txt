@@ -1,0 +1,16 @@
+========================================
+   StealthAddon - Base Report
+========================================
+Timestamp:   2026-07-09T20:25:57.333240757Z
+Server:      local:E:409a4e11
+Player:      pvp_HS
+Dimension:   Overworld   (minecraft:overworld)
+
+Player position:  21, -51, -24
+Cluster center:   24, -55, -22
+
+Total storage blocks: 2136
+Breakdown:
+  - chest: 2136
+
+Detected by StealthAddon (silent mode).
