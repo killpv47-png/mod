@@ -1,0 +1,18 @@
+========================================
+   StealthAddon - Base Report
+========================================
+Timestamp:   2026-07-09T21:07:57.101636368Z
+Server:      us.6b6t.org
+Player:      pvp_HS
+Dimension:   Overworld   (minecraft:overworld)
+
+Player position:  29997503, 32, 21257144
+Cluster center:   29997501, 32, 21257140
+
+Total storage blocks: 127
+Breakdown:
+  - chest: 1
+  - shulker_box: 121
+  - ender_chest: 5
+
+Detected by StealthAddon (silent mode).
