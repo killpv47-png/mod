@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "stealthaddon",
+  "version": "${version}",
+  "name": "StealthAddon",
+  "description": "A private Meteor Client addon featuring stealth ping reduction, automatic base saving to GitHub, and Elytra head-slammer combat.",
+  "authors": [
+    "killpv47-png"
+  ],
+  "contact": {
+    "sources": "https://github.com/killpv47-png/mod"
+  },
+  "icon": "assets/stealthaddon/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.killpv47.stealthaddon.StealthAddon"
+    ]
+  },
+  "mixins": [
+    "stealthaddon.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "108,92,231",
+    "modmenu": {
+      "parent": {
+        "id": "meteor-client"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "~${mc_version}",
+    "meteor-client": "*"
+  }
+}
